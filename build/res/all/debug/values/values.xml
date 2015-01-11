@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/Steve/workspace/todos/res/values/priority.xml -->
+    <string-array name="priorities">
+        <item>Reminder</item>
+        <item>Urgent</item>
+    </string-array>
+    <!-- From: file:/C:/Users/Steve/workspace/todos/res/values/attrs.xml -->
+    <declare-styleable name="PicGallery">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
+    <declare-styleable name="category">
+        <attr name="state_reminder" format="boolean" />
+        <attr name="state_urgent" format="boolean" />
+    </declare-styleable>
+    <!-- From: file:/C:/Users/Steve/workspace/todos/res/values/dimens.xml -->
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <!-- From: file:/C:/Users/Steve/workspace/todos/res/values/strings.xml -->
+    <string name="EnterPassword">Enter Your Password to Continue</string>
+    <string name="app_name">ToDo List</string>
+    <string name="btn_submit">Submit</string>
+    <string name="dialog_message">Are you enjoying our application? \nWould you like to rate it and tell everyone how cool is it ?</string>
+    <string name="email">Email Image</string>
+    <string name="hello">Press IMPORT and selct a libray to import from!</string>
+    <string name="importimg">IMPORT</string>
+    <string name="lblPassword">Enter a Password</string>
+    <string name="menu_delete">Delete Item?</string>
+    <string name="menu_insert">Add Item</string>
+    <string name="menu_settings">Settings</string>
+    <string name="no_todos">You have Nothing ToDo</string>
+    <string name="picture">Picture</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="refreshing_gallery">Refreshing Gallery</string>
+    <string name="select_intro">Long-press a thumbnail to add an image</string>
+    <string name="share">Share</string>
+    <string name="show_intro">Press a thumbnail to display at larger size</string>
+    <string name="stConfPass">Confirm New Password</string>
+    <string name="stDone">Done</string>
+    <string name="stFakePassPrefs">Secure ToDo Password Prefs</string>
+    <string name="stFakePrefs">Set Secure ToDo Password</string>
+    <string name="stGallery">Gallery</string>
+    <string name="stGetImage">Import Image</string>
+    <string name="stLogin">Login</string>
+    <string name="stPassPrefs">Password Preferences</string>
+    <string name="stPassword">Enter New Password</string>
+    <string name="stPrefs">Change Password</string>
+    <string name="stSetPass">Set Password</string>
+    <string name="stToDo">ToDo</string>
+    <string name="title_activity_todos_overview">ToDo List</string>
+    <string name="title_fake_activity_todos_overview">Secure ToDo List</string>
+    <string name="todo_description">Delete Item</string>
+    <string name="todo_edit_confirm">Create ToDo Item</string>
+    <string name="todo_edit_description">Description</string>
+    <string name="todo_edit_summary">Subject</string>
+    <string name="todo_summary">Subject</string>
+    <!-- From: file:/C:/Users/Steve/workspace/todos/res/values/styles.xml -->
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+</resources>

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\Steve\workspace\todos\res" >
+            <file
+                name="category"
+                path="C:\Users\Steve\workspace\todos\res\drawable\category.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="bg"
+                path="C:\Users\Steve\workspace\todos\res\drawable-hdpi\bg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="C:\Users\Steve\workspace\todos\res\drawable-hdpi\ic_action_search.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Steve\workspace\todos\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="reminder"
+                path="C:\Users\Steve\workspace\todos\res\drawable-hdpi\reminder.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bg"
+                path="C:\Users\Steve\workspace\todos\res\drawable-ldpi\bg.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Steve\workspace\todos\res\drawable-ldpi\ic_launcher.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="reminder"
+                path="C:\Users\Steve\workspace\todos\res\drawable-ldpi\reminder.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="bg"
+                path="C:\Users\Steve\workspace\todos\res\drawable-mdpi\bg.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="farside"
+                path="C:\Users\Steve\workspace\todos\res\drawable-mdpi\farside.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="C:\Users\Steve\workspace\todos\res\drawable-mdpi\ic_action_search.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_input_delete"
+                path="C:\Users\Steve\workspace\todos\res\drawable-mdpi\ic_input_delete.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Steve\workspace\todos\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="lock"
+                path="C:\Users\Steve\workspace\todos\res\drawable-mdpi\lock.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ps_bg"
+                path="C:\Users\Steve\workspace\todos\res\drawable-mdpi\ps_bg.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="reminder"
+                path="C:\Users\Steve\workspace\todos\res\drawable-mdpi\reminder.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="todosecure"
+                path="C:\Users\Steve\workspace\todos\res\drawable-mdpi\todosecure.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="todosecureunlock"
+                path="C:\Users\Steve\workspace\todos\res\drawable-mdpi\todosecureunlock.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="unlock"
+                path="C:\Users\Steve\workspace\todos\res\drawable-mdpi\unlock.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="urgent"
+                path="C:\Users\Steve\workspace\todos\res\drawable-mdpi\urgent.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="C:\Users\Steve\workspace\todos\res\drawable-xhdpi\ic_action_search.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Steve\workspace\todos\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="cell"
+                path="C:\Users\Steve\workspace\todos\res\layout\cell.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog"
+                path="C:\Users\Steve\workspace\todos\res\layout\dialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="emailtodoimage"
+                path="C:\Users\Steve\workspace\todos\res\layout\emailtodoimage.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fakemain"
+                path="C:\Users\Steve\workspace\todos\res\layout\fakemain.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="faketodo_edit"
+                path="C:\Users\Steve\workspace\todos\res\layout\faketodo_edit.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="faketodo_list"
+                path="C:\Users\Steve\workspace\todos\res\layout\faketodo_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="faketodo_row"
+                path="C:\Users\Steve\workspace\todos\res\layout\faketodo_row.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="full_image"
+                path="C:\Users\Steve\workspace\todos\res\layout\full_image.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="gallery"
+                path="C:\Users\Steve\workspace\todos\res\layout\gallery.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="image_viewer"
+                path="C:\Users\Steve\workspace\todos\res\layout\image_viewer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="C:\Users\Steve\workspace\todos\res\layout\main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="mainin"
+                path="C:\Users\Steve\workspace\todos\res\layout\mainin.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="password"
+                path="C:\Users\Steve\workspace\todos\res\layout\password.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="scaledgalleryitemlayout"
+                path="C:\Users\Steve\workspace\todos\res\layout\scaledgalleryitemlayout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="sendtodo"
+                path="C:\Users\Steve\workspace\todos\res\layout\sendtodo.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="setgalpass"
+                path="C:\Users\Steve\workspace\todos\res\layout\setgalpass.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="settodopass"
+                path="C:\Users\Steve\workspace\todos\res\layout\settodopass.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="todogallery"
+                path="C:\Users\Steve\workspace\todos\res\layout\todogallery.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="todo_edit"
+                path="C:\Users\Steve\workspace\todos\res\layout\todo_edit.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="todo_list"
+                path="C:\Users\Steve\workspace\todos\res\layout\todo_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="todo_row"
+                path="C:\Users\Steve\workspace\todos\res\layout\todo_row.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="twelve_key_entry"
+                path="C:\Users\Steve\workspace\todos\res\layout\twelve_key_entry.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="listmenu"
+                path="C:\Users\Steve\workspace\todos\res\menu\listmenu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="C:\Users\Steve\workspace\todos\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="menu_share"
+                path="C:\Users\Steve\workspace\todos\res\menu\menu_share.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="prefs_menu"
+                path="C:\Users\Steve\workspace\todos\res\menu\prefs_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Users\Steve\workspace\todos\res\values\attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="PicGallery" >
+                    <attr name="android:galleryItemBackground" />
+                </declare-styleable>
+                <declare-styleable name="category" >
+                    <attr
+                        name="state_reminder"
+                        format="boolean" />
+                    <attr
+                        name="state_urgent"
+                        format="boolean" />
+                </declare-styleable>
+            </file>
+            <file
+                path="C:\Users\Steve\workspace\todos\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="padding_medium" >8dp
+                </dimen>
+                <dimen name="padding_small" >8dp
+                </dimen>
+                <dimen name="padding_large" >16dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\Steve\workspace\todos\res\values\priority.xml"
+                qualifiers="" >
+                <string-array name="priorities" >
+                    <item>
+Reminder
+                    </item>
+                    <item>
+Urgent
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="C:\Users\Steve\workspace\todos\res\values\strings.xml"
+                qualifiers="" >
+                <string name="stFakePassPrefs" >Secure ToDo Password Prefs
+                </string>
+                <string name="stToDo" >ToDo
+                </string>
+                <string name="btn_submit" >Submit
+                </string>
+                <string name="todo_summary" >Subject
+                </string>
+                <string name="title_activity_todos_overview" >ToDo List
+                </string>
+                <string name="menu_delete" >Delete Item?
+                </string>
+                <string name="stPassword" >Enter New Password
+                </string>
+                <string name="picture" >Picture
+                </string>
+                <string name="hello" >Press IMPORT and selct a libray to import from!
+                </string>
+                <string name="dialog_message" >Are you enjoying our application? \nWould you like to rate it and tell everyone how cool is it ?
+                </string>
+                <string name="menu_insert" >Add Item
+                </string>
+                <string name="todo_edit_description" >Description
+                </string>
+                <string name="stLogin" >Login
+                </string>
+                <string name="stPassPrefs" >Password Preferences
+                </string>
+                <string name="importimg" >IMPORT
+                </string>
+                <string name="menu_settings" >Settings
+                </string>
+                <string name="stPrefs" >Change Password
+                </string>
+                <string name="select_intro" >Long-press a thumbnail to add an image
+                </string>
+                <string name="stSetPass" >Set Password
+                </string>
+                <string name="email" >Email Image
+                </string>
+                <string name="refreshing_gallery" >Refreshing Gallery
+                </string>
+                <string name="stDone" >Done
+                </string>
+                <string name="todo_edit_summary" >Subject
+                </string>
+                <string name="stFakePrefs" >Set Secure ToDo Password
+                </string>
+                <string name="please_wait" >Please Wait
+                </string>
+                <string name="todo_edit_confirm" >Create ToDo Item
+                </string>
+                <string name="todo_description" >Delete Item
+                </string>
+                <string name="EnterPassword" >Enter Your Password to Continue
+                </string>
+                <string name="stGetImage" >Import Image
+                </string>
+                <string name="show_intro" >Press a thumbnail to display at larger size
+                </string>
+                <string name="app_name" >ToDo List
+                </string>
+                <string name="stConfPass" >Confirm New Password
+                </string>
+                <string name="stGallery" >Gallery
+                </string>
+                <string name="lblPassword" >Enter a Password
+                </string>
+                <string name="share" >Share
+                </string>
+                <string name="no_todos" >You have Nothing ToDo
+                </string>
+                <string name="title_fake_activity_todos_overview" >Secure ToDo List
+                </string>
+            </file>
+            <file
+                path="C:\Users\Steve\workspace\todos\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Light" />
+            </file>
+            <file
+                path="C:\Users\Steve\workspace\todos\res\values-large\dimens.xml"
+                qualifiers="large" >
+                <dimen name="padding_small" >8dp
+                </dimen>
+                <dimen name="padding_medium" >16dp
+                </dimen>
+                <dimen name="padding_large" >16dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\Steve\workspace\todos\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light" />
+            </file>
+            <file
+                path="C:\Users\Steve\workspace\todos\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" />
+            </file>
+        </source>
+        <source path="C:\Users\Steve\workspace\todos\build\res\rs\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Steve\workspace\todos\build-types\debug\res" />
+    </dataSet>
+
+</merger>

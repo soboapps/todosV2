@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">ToDo List</string>
+    <string name="hello">Press IMPORT and selct a libray to import from!</string>
+    <string name="email">Email Image</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_new">Import</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_insert">Add Item</string>
+    <string name="menu_restore">Restore Item</string>
+    <string name="menu_delete">Delete Item?</string>
+    <string name="menu_camera">Take Photo</string>
+    <string name="menu_crop">Crop/Rotate</string>
+    <string name="title_activity_todos_overview">ToDo List</string>
+    <string name="title_fake_activity_todos_overview">Hidden ToDo List</string>
+    <string name="no_todos">You have Nothing ToDo</string>
+    <string name="todo_summary">Subject</string>
+    <string name="todo_description">Delete Item</string>
+    <string name="todo_edit_summary">Subject</string>
+    <string name="todo_edit_description">Description</string>
+    <string name="todo_edit_confirm">Create ToDo Item</string>
+    <string name="lblPassword">Enter a PIN</string>
+    <string name="stPassword">Enter New PIN</string>
+    <string name="stConfPass">Confirm New PIN</string>
+    <string name="stSetPass">Set Password</string>
+    <string name="stDone">Done</string>
+    <string name="stSendTo">Send to</string>
+    <string name="EnterPassword">Enter Your PIN to Continue</string>
+    <string name="EnterPin">Enter PIN</string>
+    <string name="AtLeastFour">PIN must be at least 4 characters</string>
+    <string name="PinHasBeenSet">PIN has been set!</string>
+    <string name="IncorrectPin">Incorrect PIN!</string>
+    <string name="SetGalleryPin">Set Gallery PIN</string>
+    <string name="MustBeUnique">PIN\'s Must Be Unique</string>
+    <string name="btn_submit">Submit</string>
+    <string name="picture">Picture</string>
+    <string name="deleteConfirmationTitle">Delete Item?</string>
+    <string name="deleteConfirmationString">Are You Sure?</string>
+    <string name="deleteConfirmationStringYes">Yes</string>
+    <string name="deleteConfirmationStringNo">No</string>
+    <string name="restoreConfirmationTitle">Restore Item?</string>
+    <string name="restoreConfirmationString">Are You Sure?</string>
+    <string name="restoreConfirmationStringYes">Yes</string>
+    <string name="restoreConfirmationStringNo">No</string>
+    <string name="stPrefs">Change Gallery PIN</string>
+    <string name="stFakePrefs">Set Hidden ToDo PIN</string>
+    <string name="stToDo">ToDo</string>
+    <string name="stLogin">Login</string>
+    <string name="stGallery">Gallery</string>
+    <string name="stGallery1">Gallery 2</string>
+    <string name="stPassPrefs">Set Gallery PIN</string>
+    <string name="stFakePassPrefs">Set Hidden ToDo PIN</string>
+    <string name="stChangeFakePass">Change Hidden ToDo PIN</string>
+    <string name="stGetImage">Import Image</string>
+    <string name="stSendImage">Export Image</string>
+	<string name="select_intro">Long-press a thumbnail to add an image</string>
+	<string name="show_intro">Press a thumbnail to display at larger size</string>
+	<string name="importimg">IMPORT</string>
+	<string name="please_wait">Please Wait</string>
+	<string name="helpoverlay">Help</string>
+	<string name="stHelp">Help</string>
+	<string name="refreshing_gallery">Refreshing Gallery</string>
+	<string name="dialog_message">Are you enjoying our application? \nWould you like to rate it and tell everyone how cool is it ?</string>
+	<string name="pic">Received Picture</string>
+	<string name="action_settings">Settings</string>
+	<string name="stsetquickescape">Set QuickEscape Image</string>
+	<string name="action_share">Share</string>
+    <string name="toast_error_camera_preview">Can\'t initialize camera preview.</string>
+    <string name="toast_error_save_picture">Can\'t save picture on external storage.</string>
+    <string name="content_description_take_picture">Take picture</string>
+    <string name="cancel">Cancel</string>
+	<string name="save">Save</string>
+	<string name="saving_image">Saving image</string>
+	<string name="preparing_card">Preparing card</string>
+	<string name="no_storage_card">No storage card</string>
+	<string name="not_enough_space">Not enough space</string>
+	    <!-- Preference title for whether the user should be prompted form confirmation when deleting images  -->
+    <string name="pref_gallery_confirm_delete_title">Confirm deletions</string>
+
+    <!-- Preference summary for whether the user should be prompted form confirmation when deleting images  -->
+    <string name="pref_gallery_confirm_delete_summary">Show confirmation before deleting a picture or video</string>
+    
+	<!-- Database Entries -->
+	<string name="MainToDo">Main ToDo</string>
+	    <!-- The title shown on the button which will delete all the selected images -->
+    <string name="multiselect_delete">Delete</string>
+
+    <!-- Title shown on the button which will close the multiselction mode -->
+    <string name="multiselect_cancel">Cancel</string>
+
+    <!-- The messsage shown on progress dialog when deleting images -->
+    <string name="delete_images_message">Deleting images\u2026</string>
+    
+        <!-- Confirmation dialog title after deleting a picture -->
+    <string name="confirm_delete_title">Delete</string>
+    <!-- Confirmation dialog message after deleting a picture -->
+    <string name="confirm_delete_message">Delete this picture?</string>
+    <!-- Confirmation dialog message after deleting a video -->
+    <string name="confirm_delete_video_message">Delete this video?</string>
+
+    <!-- Confirmation dialog message after deleting a multiple media files -->
+    <string name="confirm_delete_multiple_message">Delete these media files?</string>
+
+    <!-- button indicating that the picture just taken should be deleted -->
+    <string name="camera_toss">Delete</string>
+	
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<item    
+    	android:id="@+id/menuPrefs"
+    	android:alphabeticShortcut="p"
+    	android:title="@string/stPrefs"
+    	
+	/>	
+	
+		<item    
+    	android:id="@+id/menuFake"
+    	android:alphabeticShortcut="f"
+    	android:title="@string/stFakePrefs"
+    	
+	/>	  
+	
+	<item    
+    	android:id="@+id/menuGetImage"
+    	android:alphabeticShortcut="i"
+    	android:title="@string/stGetImage"
+    	
+	/>	  	
+	
+</menu>    <!-- From: file:/C:/Users/Steve/workspace/todos/res/menu/prefs_menu.xml -->

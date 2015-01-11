@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\Steve\workspace\todos\assets" >
+            <file
+                name="farside.png"
+                path="C:\Users\Steve\workspace\todos\assets\farside.png" />
+            <file
+                name="myDataBase"
+                path="C:\Users\Steve\workspace\todos\assets\myDataBase" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Steve\workspace\todos\build-types\debug\assets" />
+    </dataSet>
+
+</merger>
