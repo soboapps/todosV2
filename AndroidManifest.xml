@@ -1,11 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.soboapps.todos"
-    android:versionCode="19"
-    android:versionName="1.19" >
+    android:versionCode="22"
+    android:versionName="1.22" >
 
     <uses-sdk 
         android:minSdkVersion="14"
-        android:targetSdkVersion="21" />
+        android:targetSdkVersion="22" />
     
         <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE"></uses-permission>
         <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE"></uses-permission>
@@ -26,6 +26,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:allowBackup="true"
+        android:largeHeap="true"
         android:theme="@style/AppTheme" >
         
         <activity
@@ -46,6 +47,7 @@
             android:finishOnTaskLaunch="true"
             android:icon="@drawable/todosecureunlock"
             android:exported="false"
+            android:largeHeap="true"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_fake_activity_todos_overview" >
             <intent-filter>
@@ -57,6 +59,7 @@
         <activity
             android:name=".TodoDetailActivity"
             android:finishOnTaskLaunch="true"
+            android:largeHeap="true"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:windowSoftInputMode="stateVisible|adjustResize" >
         </activity>
@@ -64,6 +67,7 @@
         <activity
             android:name=".FakeTodoDetailActivity"
             android:finishOnTaskLaunch="true"
+            android:largeHeap="true"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:windowSoftInputMode="stateVisible|adjustResize" >
         </activity>
@@ -74,6 +78,7 @@
             android:icon="@drawable/lock"
             android:label="@string/stLogin"
             android:windowSoftInputMode="stateHidden"
+            android:largeHeap="true"
             android:exported="false"
             android:theme="@android:style/Theme.Holo" >
             <intent-filter>
@@ -87,6 +92,7 @@
             android:finishOnTaskLaunch="true"
             android:excludeFromRecents="true"
             android:icon="@drawable/unlock"
+            android:largeHeap="true"
             android:exported="false"
             android:label="@string/stGallery"       
             android:configChanges="orientation|keyboardHidden|screenSize" 
@@ -99,6 +105,7 @@
         
         <activity
             android:name=".CameraActivity"
+            android:largeHeap="true"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="com.soboapps.todos.CameraActivity" />
@@ -107,6 +114,7 @@
         </activity>
         <activity
             android:name=".PhotoActivity"
+            android:largeHeap="true"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.soboapps.todos.PhotoActivity" />
@@ -116,32 +124,20 @@
         
         <activity
             android:name=".GetToDoImage"
+            android:largeHeap="true"
             android:finishOnTaskLaunch="true"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.soboapps.todos.GETTODOIMAGE" />
                 <category android:name="android.intent.category.DEFAULT" />
-        		<data android:mimeType="image/*" />
-			    <data android:mimeType="video/*" />
             </intent-filter>
         </activity> 
-        
-        <provider
-            android:exported="false"
-            android:name=".contentprovider.MyTodoContentProvider"
-            android:authorities="com.soboapps.todos.contentprovider" >
-        </provider>
-        
-        <provider
-            android:exported="false"
-            android:name="com.soboapps.todos.fakecontentprovider.MyFakeTodoContentProvider"
-            android:authorities="com.soboapps.todos.fakecontentprovider" >
-        </provider>
-        
+
         <activity
             android:name=".PassPrefs"
             android:finishOnTaskLaunch="true"
             android:label="@string/stPassPrefs"
+            android:largeHeap="true"
             android:exported="false" 
             android:theme="@android:style/Theme.Holo" >
             <intent-filter>
@@ -154,6 +150,7 @@
             android:name=".FakePassPrefs"
             android:finishOnTaskLaunch="true"
             android:label="@string/stFakePassPrefs"
+            android:largeHeap="true"
             android:exported="false"
             android:windowSoftInputMode="stateHidden"
             android:theme="@android:style/Theme.Holo" >
@@ -165,6 +162,7 @@
         
 		<activity android:name=".SendToDo"
 		    android:excludeFromRecents="true"
+		    android:largeHeap="true"
 		    android:exported="true">
 			    <intent-filter>
 			        <action android:name="android.intent.action.SEND" />
@@ -175,6 +173,7 @@
 		</activity>
 		
 		<activity android:name="com.soboapps.todos.helper.DeleteImage"
+		    	android:largeHeap="true"
                 android:label="@string/delete_images_message"
                 android:theme="@style/Theme.DeleteImageDialog">
         </activity>
@@ -183,6 +182,7 @@
             android:name="com.soboapps.todos.FullScreenViewActivity"
             android:finishOnTaskLaunch="true"
             android:noHistory="true"
+            android:largeHeap="true"
             android:label="@string/stGallery"
             android:theme="@android:style/Theme.Holo">
         </activity>
@@ -190,6 +190,7 @@
 		<activity
             android:name="com.soboapps.todos.VideoOutput"
             android:finishOnTaskLaunch="true"
+            android:largeHeap="true"
             android:noHistory="true"
             android:label="@string/stGallery"
             android:theme="@android:style/Theme.Holo">
@@ -199,6 +200,7 @@
             android:name="com.soboapps.todos.helper.QuickEscape"
             android:label="View Image"
             android:icon="@drawable/qegallery"
+            android:largeHeap="true"
             android:finishOnTaskLaunch="true"        
             android:theme="@android:style/Theme.Holo">
         </activity>
@@ -206,18 +208,32 @@
 		<activity
             android:name="com.soboapps.todos.SetQuickEscape"
             android:finishOnTaskLaunch="true"
+            android:largeHeap="true"
             android:theme="@android:style/Theme.Holo">
         </activity>
         
 		<activity
             android:name="com.soboapps.todos.Help"
+            android:largeHeap="true"
             android:finishOnTaskLaunch="true"
             android:theme="@android:style/Theme.Holo">
         </activity>
         
 		<activity android:name="com.soboapps.todos.photoeditor.CropImage" />
-
         
+        <provider
+            android:exported="false"
+            android:name=".contentprovider.MyTodoContentProvider"
+            android:authorities="com.soboapps.todos.contentprovider" >
+        </provider>
+        
+        <provider
+            android:exported="false"
+            android:name=".fakecontentprovider.MyFakeTodoContentProvider"
+            android:authorities="com.soboapps.todos.fakecontentprovider" >
+        </provider>
+        		
+
     </application>
 
 </manifest>

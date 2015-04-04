@@ -29,13 +29,17 @@ public class GetToDoImage extends Activity {
  
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        	Intent intent = new Intent();
-            intent.setType("image/* video/*");
-            intent.setAction(Intent.ACTION_GET_CONTENT);
-            startActivityForResult(Intent.createChooser(intent,"Select File"), SELECT_PICTURE);
+        
+        	Intent getImageFromGalleryIntent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI);
+        	startActivityForResult(getImageFromGalleryIntent, SELECT_PICTURE);
+        	//Intent intent = new Intent();
+            //intent.setType("image/* video/*");
+            //intent.setAction(Intent.ACTION_GET_CONTENT);
+            //startActivityForResult(Intent.createChooser(intent,"Select File"), SELECT_PICTURE);
     }
  
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
+    	super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == RESULT_OK) {
             if (requestCode == SELECT_PICTURE) {
                 Uri selectedImageUri = data.getData();
@@ -57,7 +61,7 @@ public class GetToDoImage extends Activity {
         }
     }
     
-    // Copy the file the Hidden Folder 
+    // Copy the file to the Hidden Folder 
     public void copyFile(String selectedImagePath2, String string) throws IOException {
         InputStream in = new FileInputStream(selectedImagePath2);
         OutputStream out = new FileOutputStream(string);

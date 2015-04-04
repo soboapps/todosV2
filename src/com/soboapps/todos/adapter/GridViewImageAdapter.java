@@ -60,6 +60,8 @@ public class GridViewImageAdapter extends BaseAdapter {
 	        imageView.setImageBitmap(image);
 
 	    }
+	    
+	    //Adding Video
 	    else if(mFilePaths.get(position).contains(".mp4") || mFilePaths.get(position).contains(".3gp"))
 	    {
 	        Bitmap video = ThumbnailUtils.createVideoThumbnail(mFilePaths.get(position), imageWidth); //Creation of Thumbnail of video
@@ -100,8 +102,9 @@ public class GridViewImageAdapter extends BaseAdapter {
 
 			File f = new File(filePath);
 
-			BitmapFactory.Options o = new BitmapFactory.Options();
+			final BitmapFactory.Options o = new BitmapFactory.Options();
 			o.inJustDecodeBounds = true;
+			o.inSampleSize = 2;
 			BitmapFactory.decodeStream(new FileInputStream(f), null, o);
 
 			final int REQUIRED_WIDTH = WIDTH;
@@ -112,7 +115,7 @@ public class GridViewImageAdapter extends BaseAdapter {
 				scale *= 2;
 
 			BitmapFactory.Options o2 = new BitmapFactory.Options();
-			o2.inSampleSize = scale;
+			o2.inSampleSize = 2;
 			return BitmapFactory.decodeStream(new FileInputStream(f), null, o2);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
